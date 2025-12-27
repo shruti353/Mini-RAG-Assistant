@@ -4,23 +4,23 @@ with Hybrid Search • Citations • Highlighting • PDF Support • Streamlit 
 A production-grade Retrieval-Augmented Generation (RAG) system designed for a construction marketplace AI assistant.
 The assistant answers questions strictly from internal documents using:
 
-🔍 Hybrid Retrieval (BM25 + Embeddings)
+ Hybrid Retrieval (BM25 + Embeddings)
 
-🧩 Document Chunking
+ Document Chunking
 
-🧠 LLM Grounded Answer Generation
+ LLM Grounded Answer Generation
 
-✨ Sentence Highlighting
+ Sentence Highlighting
 
-📌 Citations
+ Citations
 
-📥 JSON Report Export
+ JSON Report Export
 
-📄 PDF/TXT Upload Support
+ PDF/TXT Upload Support
 
-🎨 Dark Theme UI
+ Dark Theme UI
 
-🗂️ Chat History
+ Chat History
 
 ## Features
 
