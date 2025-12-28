@@ -1,7 +1,7 @@
-streamlit
-faiss-cpu
+openai>=1.6.0
 sentence-transformers
+faiss-cpu
 numpy
-PyPDF2
+pypdf2
 rank-bm25
-requests
+streamlit
