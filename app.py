@@ -60,10 +60,10 @@ def highlight_matches(chunk, query):
 # Model Selector
 # -----------------------------
 model_options = {
-    "Mistral 7B": "mistralai/mistral-7b-instruct",
-    "LLaMA 3 8B": "meta-llama/llama-3-8b-instruct",
-    "Qwen 2.5 7B": "qwen/qwen-2.5-7b-instruct",
-    "DeepSeek R1": "deepseek/deepseek-r1-distill"
+    "Mistral 7B": "mistralai/mistral-7b-instruct:free",
+    "LLaMA 3 8B": "meta-llama/llama-3-8b-instruct:free",
+    "Qwen 2.5 7B": "qwen/qwen-2.5-7b-instruct:free",
+    "DeepSeek R1": "deepseek/deepseek-r1",
 }
 
 # -----------------------------
@@ -184,12 +184,11 @@ messages = [
         ),
     },
 ]
-
-            extra_headers={
-            "HTTP-Referer": "https://rag-assistant-shruti.streamlit.app",
-            "X-Title": "Mini RAG Premium"
-            }
-            )
+        extra_headers={
+        "HTTP-Referer": "https://rag-assistant-shruti.streamlit.app",
+        "X-Title": "Mini RAG Premium"
+        }
+        )
 
             answer = completion.choices[0].message.content
 
